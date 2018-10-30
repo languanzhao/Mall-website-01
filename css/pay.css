@@ -1,0 +1,252 @@
+#middle{
+	width: 1200px;
+	margin: 0px auto;
+	padding-bottom: 58px;
+}
+#middle>p:first-child{
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	color: #333333;
+	padding-left: 5px;
+	height: 75px;
+	line-height: 75px;
+}
+#middle>ul{
+	
+}
+#middle>ul>li{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #333333;
+}
+#middle>ul>li:nth-of-type(2n+1){
+	padding-left: 58px;
+	width: 890px;
+}
+#middle>ul>li>span{
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #333333;
+}
+#middle>ul>li:last-child{
+	position: relative;
+}
+#middle>ul>li:last-child>a>span:first-child{
+	border: transparent solid 5px;
+	border-top: #ffffff solid 5px;
+	position: absolute;
+	left: 81px;
+	z-index: 19;
+	top: 12px;
+	cursor: pointer;
+}
+#middle>ul>li:last-child>a>span:last-child{
+	border: transparent solid 7px;
+	border-top: #494949 solid 7px;
+	position: absolute;
+	left:80px;
+	top: 12px;
+	cursor: pointer;
+}
+#middle>ul>li>.active{
+	color: #E93535;
+}
+#middle>div{
+	width: 1084px;
+	border: 1px solid #d6d6d6;
+	margin: 0px auto;
+	clear: both;
+	padding-bottom: 64px;
+}
+#middle>div>p:first-child{
+	height: 64px;
+	line-height: 64px;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	color: #333333;
+	border-bottom: #666666 solid 2px;
+	width: 1022px;
+	margin: 0px auto;
+}
+#middle>div>p:nth-of-type(2){
+	width:866px;
+	margin: 0px auto;
+	padding-left: 90px;
+	font-size: 0px;
+}
+#middle>div>p:nth-of-type(2) span{
+	height: 54px;
+	line-height: 54px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #333333;
+}
+#middle>div>p:nth-of-type(2) .active{
+	color: #E93535;
+}
+#middle>div>div{
+	width: 866px;
+	border:  2px #d5cdcd solid;
+	margin: 0px auto;
+	padding-bottom: 62px;
+}
+form{
+	
+}
+form>div:first-child{
+	overflow: hidden;
+	height: 76px;
+	line-height: 76px;
+	padding: 0px 36px;
+}
+form>div:first-child>input{
+	float: left;
+	margin-top: 35px;
+}
+form>div:first-child>label{
+	float: left;
+	color: #333333;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+}
+form>div:first-child>p{
+	float: right;
+	font-size: 0px;
+}
+form>div:first-child>p>span{
+	color: #333333;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+}
+form>div:first-child>p>.active{
+	color: #E93535;
+}
+form>div:nth-of-type(2){
+	overflow: hidden;
+	padding-bottom: 32px;
+}
+form>div:nth-of-type(2)>input{
+	width: 355px;
+	height: 28px;
+	border: 1px solid #cccccc;
+	padding-left: 5px;
+	line-height: 28px;
+	margin-right: 28px;
+	margin-left: 80px;
+	float: left;
+}
+form>div:nth-of-type(2)>button{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	background: #E93535;
+	border: 0px;
+	float: left;
+	cursor: pointer;
+}
+form>p{
+	overflow: hidden;
+	padding-left: 80px;
+}
+form>p>.active{
+	color: #333333;
+	background: #FFFFFF;
+}
+form>p>span{
+	cursor: pointer;
+	width: 158px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+    background-color: #E93535;
+	color: #FFFFFF;
+	border: #CCCCCC solid 1px;
+	border-bottom: 0px;
+	text-align: center;
+}
+form>p>span:hover{
+	color: #333333;
+	background: #FFFFFF;
+}
+form>ul{
+	border-top: 1px #CCCCCC solid;
+	overflow: hidden;
+	margin-left: 80px;
+	padding-top: 38px;
+}
+form>ul>li{
+	cursor: pointer;
+	width: 158px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-right: 18px;
+	border: #c6bfc0 solid 1px;
+	margin-bottom: 24px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #E93535;
+}
+form>ul>.active{
+	border: #E93535 solid 1px;
+}
+form>ul>li:hover{
+	border: #E93535 solid 1px;
+}
+form>ul>li>img{
+	vertical-align: middle;
+}
+form>div:last-child{
+	padding-top: 20px;
+	overflow: hidden;
+	padding-left: 80px;
+}
+form>div:last-child>input{
+	float: left;
+	padding-left: 5px;	
+	width: 153px;
+	height: 40px;
+	border: 1px solid #c6bfc0;
+}
+form>div:last-child>button{
+	float: left;
+	margin-left: 30px;
+	background: #E93535;
+	border: 0px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #FFFFFF;
+	width: 160px;
+	height: 42px;
+	cursor: pointer;
+}
+/*尾部*/
+#footer{
+	width: 100%;
+	height: 60px;
+	background: #333333;
+	clear: both;
+	padding: 0px;
+}
+#footer>p{
+	width: 100%;
+	height: 60px;
+	background: #333333;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0px;
+}
+

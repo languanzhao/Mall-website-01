@@ -1,0 +1,520 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表页</title>
+		<link rel="stylesheet" href="css/shop_list.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+	    <div id="header">
+	    	<div class="top">
+	    		<div>
+	    			<span>您好&nbsp;欢迎来到世纪沉香坊在线商城</span>
+	    			<p>
+	    				<a href="login.html">登录 |</a>
+	    			    <a href="reg.html">注册</a>
+	    			</p>
+	    			<ul>
+	    				<li>
+	    					<a href="javascript:void(0)">
+	    						<img src="img/icon1.png"/>
+	    						<span>我关注的商品</span>
+	    						<i></i>
+	    					</a>
+	    					<ul>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    					</ul>
+	    				</li>
+	    				<li>
+	    					<a href="collection_page.html">
+	    						<span>收藏夹</span>
+	    						<i></i>
+	    					</a>
+	    					<ul>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    					</ul>
+	    				</li>
+	    				<li>
+	    					<a href="javascript:void(0)">
+	    						<span>企业购 |</span> 						
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="order.html">
+	    						<span>我的订单</span>
+	    						<i></i>
+	    					</a>
+	    					<ul>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    					</ul>
+	    				</li>
+	    				<li>
+	    					<a href="javascript:void(0)">
+	    						<span>商家支持</span>
+	    						<i></i>
+	    					</a>
+	    					<ul>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    					</ul>
+	    				</li>
+	    				<li>
+	    					<a href="javascript:void(0)">
+	    						<img src="img/icon2.png"/>
+	    						<span>网站导航</span>
+	    						<i></i>
+	    					</a>
+	    					<ul>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    						<li><a href="javascript:void(0)">文竹小盆栽</a></li>
+	    					</ul>
+	    				</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div>
+	    		<div class="logo">
+	    			<a href="index.html"><img src="img/logo.png"/></a>
+	    		</div>
+	    		<div>
+	    			<div class="search">
+	    				<form action="" method="get" onsubmit="return false;">
+	    					<input type="text" placeholder="搜索关键词" />
+	    					<button type="submit">搜索商品</button>
+	    				</form>
+	    			</div>
+	    			<span>热门搜索：</span>
+	    			<ul>
+	    				<li><a href="shop_list.html">沉香珠串 </a></li>
+	    				<li><a href="shop_list.html">沉香雕件</a></li>
+	    				<li><a href="shop_list.html">沉香摆件</a></li>
+	    				<li><a href="shop_list.html">沉香熏材</a></li>
+	    			</ul>
+	    		</div>
+	    		<div class="cart">
+	    			<a href="shop_cart.html">
+	    				<img src="img/cart.png"/>
+	    				<span>我的购物车</span>
+	    				<span>（0）</span>
+	    			</a>
+	    		</div>
+	    	</div>
+	    	<!--导航栏-->
+	    	<div class="nav">
+	    		<div>
+	    			<div>
+	    				<p>全部产品分类&nbsp;&nbsp;&nbsp;&nbsp;&gt;</p>
+	    				<ul>
+	    					<li><a href="shop_list.html">奇楠专区</a></li>
+	    					<li><a href="shop_list.html">沉香串珠</a></li>
+	    					<li><a href="shop_list.html">随形专区 </a></li>
+	    					<li><a href="shop_list.html">香道熏材</a></li>
+	    					<li><a href="shop_list.html">沉香雕件</a></li>
+	    					<li><a href="shop_list.html">沉香原材</a></li>
+	    					<li><a href="shop_list.html">沉香摆件</a></li>
+	    				</ul>
+	    			</div>
+	    			<ul>
+	    				<li><a href="index.html">首页</a></li>
+	    				<li class="active"><a href="shop_list.html">当日精选</a></li>
+	    				<li><a href="shop_list.html">设计精选</a></li>
+	    				<li><a href="shop_list.html">最新上市</a></li>
+	    				<li><a href="shop_list.html">人气商品</a></li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--主体内容-->
+	    <div id="middle">
+	    	<!--搜索框-->
+	    	<div>
+	    		<div class="search">
+		    		<form action="" method="get" onsubmit="return false;">
+						<input type="text" placeholder="搜索关键词" />
+						<button type="submit">搜索</button>
+					</form>
+		    	</div>
+		    	<h2>所有分类</h2>
+		    	<!--分类框-->
+		    	<div class="classify">
+		    		<dl>
+		    			<dt>产品类别：</dt>
+		    			<dd><a href="javascript:void(0)">极品奇楠</a></dd>
+		    			<dd><a href="javascript:void(0)">沉香珠串</a></dd>
+		    			<dd><a href="javascript:void(0)">沉香雕件</a></dd>
+		    			<dd><a href="javascript:void(0)">原材专区</a></dd>
+		    			<dd><a href="javascript:void(0)">沉香摆件</a></dd>
+		    			<dd><a href="javascript:void(0)">套装礼盒</a></dd>
+		    			<dd><a href="javascript:void(0)">线香盘香</a></dd>
+		    			<dd><a href="javascript:void(0)">沉香碎料</a></dd>
+		    			<dd><a href="javascript:void(0)">沉香碎料</a></dd>
+		    		</dl>
+		    		<dl>
+		    			<dt>按产区分 :</dt>
+		    			<dd><a href="javascript:void(0)">文莱</a></dd>
+		    			<dd><a href="javascript:void(0)">加里曼丹</a></dd>
+		    			<dd><a href="javascript:void(0)">达拉干</a></dd>
+		    			<dd><a href="javascript:void(0)">马泥涝</a></dd>
+		    			<dd><a href="javascript:void(0)">马来西亚</a></dd>
+		    			<dd><a href="javascript:void(0)">安汶</a></dd>
+		    			<dd><a href="javascript:void(0)">惠安系</a></dd>
+		    			<dd><a href="javascript:void(0)">柬埔寨</a></dd>
+		    			<dd><a href="javascript:void(0)">芽庄</a></dd>
+		    			<dd><a href="javascript:void(0)">其它产区</a></dd>
+		    		</dl>
+		    		<dl>
+		    			<dt>按规格分：</dt>
+		    			<dd><a href="javascript:void(0)">随形</a></dd>
+		    			<dd><a href="javascript:void(0)">6MM*108颗</a></dd>
+		    			<dd><a href="javascript:void(0)">8MM*108颗</a></dd>
+		    			<dd><a href="javascript:void(0)">16MM*14颗</a></dd>
+		    			<dd><a href="javascript:void(0)">其他规格</a></dd>
+		    		</dl>
+		    		<dl>
+		    			<dt>按价格分：</dt>
+		    			<dd><a href="javascript:void(0)">2千元以内</a></dd>
+		    			<dd><a href="javascript:void(0)">2千-5千</a></dd>
+		    			<dd><a href="javascript:void(0)">5千-1万</a></dd>
+		    			<dd><a href="javascript:void(0)">5万-10万</a></dd>
+		    			<dd><a href="javascript:void(0)">10万以上</a></dd>
+		    		</dl>
+		    	</div>
+	    	    <!--综合排序-->
+	    	    <div>
+	    	    	<ul>
+	    	    		<li class="active"><a href="javascript:void(0)">综合排序</a></li>
+	    	    		<li><a href="javascript:void(0)">销量</a></li>
+	    	    		<li><a href="javascript:void(0)">评论</a></li>
+	    	    		<li><a href="javascript:void(0)">新品</a></li>
+	    	    		<li><a href="javascript:void(0)">价格</a></li>
+	    	    	</ul>
+	    	    	<div>
+	    	    		<p>共5.8万件商品</p>
+	    	    		<p>
+	    	    			<span>1</span>
+	    	    			<span>/120</span>
+	    	    		</p>
+	    	    		<form action="" method="get" onsubmit="return false;">
+	    	    			<button type="submit" class="left">&lt;</button>
+	    	    			<button type="submit">&gt;</button>
+	    	    		</form>
+	    	    	</div>
+	    	    </div>
+	    		<!--商品列表-->
+	    		<ul class="pro_list">
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_01.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_02.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_03.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_04.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_05.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_06.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_07.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_08.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_09.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_10.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_11.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_12.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_13.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_14.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_15.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_16.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_17.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_18.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_19.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_20.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_21.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_22.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_23.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_24.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_25.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_26.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_27.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    			<li>
+	    				<a href="pro_details.html"><img src="img/sl_28.png"/></a>
+	    				<h3><a href="pro_details.html">【世纪沉香坊】</a></h3>
+	    				<p><a href="pro_details.html">达拉干 16mm *14颗 30克 160731-17</a></p>
+	    				<span><a href="pro_details.html">13420.00</a></span>
+	    				<small><a href="pro_details.html">查看详情</a></small>
+	    			</li>
+	    		</ul>
+	    		<ul>
+	    			<li>销量</li>
+	    			<li>销量</li>
+	    			<li>销量</li>
+	    			<li>销量</li>
+	    			<li>销量</li>
+	    		</ul>
+	    		<ul>
+	    			<li>评论1</li>
+	    			<li>评论2</li>
+	    			<li>评论3</li>
+	    			<li>评论4</li>
+	    			<li>评论5</li>
+	    		</ul>
+	    		<ul>
+	    			<li>新品01</li>
+	    			<li>新品02</li>
+	    			<li>新品03</li>
+	    			<li>新品04</li>
+	    			<li>新品05</li>
+	    		</ul>
+	    		<ul>
+	    			<li>价格001</li>
+	    			<li>价格002</li>
+	    			<li>价格003</li>
+	    			<li>价格004</li>
+	    			<li>价格005</li>
+	    			<li>价格006</li>
+	    		</ul>
+	    		<!--页码-->
+	    		<div>
+	    			<ul class="page">
+		    			<li class="prev"><a href="javascript:void(0)">上一页</a></li>
+		    			<li class="on"><a href="javascript:void(0)">1</a></li>
+		    			<li><a href="javascript:void(0)">2</a></li>
+		    			<li><a href="javascript:void(0)">3</a></li>
+		    			<li><a href="javascript:void(0)">4</a></li>
+		    			<li><a href="javascript:void(0)">5</a></li>
+		    			<li><a href="javascript:void(0)">6</a></li>
+		    			<li><a href="javascript:void(0)">...</a></li>
+		    			<li class="next"><a href="javascript:void(0)">下一页</a></li>
+		    		</ul>
+		    		<form action="" method="get" onsubmit="return false;">
+		    			<p>共120页</p>
+			    		<span>到第</span>
+			    		<input type="text" name="number" id="number" value="1" />
+			    		<span>页</span>
+			    		<button type="button">确定</button>
+		    		</form>		    		
+	    		</div>
+	    		<!--猜你喜欢-->
+	    		<div class="love">
+	    			<h3>猜你喜欢</h3>
+	    			<ul>
+	    				<li><a href="pro_details.html"><img src="img/sl_33.png"/><span>越南香熏</span></a></li>
+	    				<li><a href="pro_details.html"><img src="img/sl_34.png"/><span>越南香熏</span></a></li>
+	    				<li><a href="pro_details.html"><img src="img/sl_35.png"/><span>越南香熏</span></a></li>
+	    				<li><a href="pro_details.html"><img src="img/sl_36.png"/><span>越南香熏</span></a></li>
+	    				<li><a href="pro_details.html"><img src="img/sl_37.png"/><span>越南香熏</span></a></li>
+	    				<li><a href="pro_details.html"><img src="img/sl_38.png"/><span>越南香熏</span></a></li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--尾部-->
+	    <div id="footer">
+	    	<div>
+	    		<ul>
+	    			<li>
+	    				<dl>
+	    					<dt>帮助中心</dt>
+				    		<dd>购物常见问题</dd>
+				    		<dd>货到付款</dd>
+	    				</dl>
+	    			</li>
+	    			<li>
+	    				<dl>
+    						<dt>我们承诺</dt>
+		    				<dd>我们承诺100％原创设计</dd>
+		    				<dd>365天不打烊</dd>
+		    				<dd>无理由退换货 ( 除定制 )</dd>
+	    				</dl>
+	    			</li>
+	    			<li>
+	    				<dl>
+	    					<dt>联系我们</dt>
+		    				<dd>联系人：张经理</dd>
+		    				<dd>微 信：778435497（咨询鉴定）</dd>
+		    				<dd> 电 话：18605526776</dd>
+	    				</dl>
+	    			</li>
+	    		</ul>
+	    		<div class="code">
+	    			<img src="img/code1.png" alt="二维码" />
+	    			<img src="img/code2.png" alt="二维码" />
+	    			<p>扫码进入官方服务号</p>
+	    			<p>扫码张海明老师订阅号</p>
+	    		</div>
+	    	</div>
+	    	<p>世纪沉香坊有限公司 WowSai.com Copyright© 2008-2013 [京ICP备10020900][京公网安备11010502026420][京ICP证090011号]</p>
+	    </div>
+	    <script type="text/javascript" src="js/jquery.js" ></script>
+	    <script type="text/javascript" src="js/public.js" ></script>
+	    <script type="text/javascript" src="js/shop_list.js" ></script>
+	</body>
+</html>

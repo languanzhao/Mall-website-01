@@ -1,0 +1,329 @@
+/*中部*/
+#middle{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 27px 0px 63px;
+	overflow: hidden;
+}
+#middle>p{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-family: "microsoft yahei";
+	color: #000000;
+	font-size: 14px;
+	padding-left: 10px;
+	width: 1190px;
+	background: #f6f6f6;
+}
+
+/*左侧导航*/
+#middle>dl{
+	float: left;
+	width: 221px;
+	background: #efefef;
+}
+#middle>dl>dt{
+	margin-top: 38px;
+}
+#middle>dl>dt>a{
+	height: 38px;
+	width: 221px;
+	line-height: 38px;
+	background: #efefef;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #000000;
+	text-align: center;
+	display: block;
+	
+}
+#middle>dl>dt:hover>a,#middle>dl>dd:hover>a{
+	color: #E93535;
+}
+#middle>dl>.active>a{
+	color: #E93535;
+}
+#middle>dl>dd>a{
+	height: 38px;
+	width: 221px;
+	background: #efefef;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	color: #000000;
+	line-height: 38px;
+	text-align: center;
+	display: block;
+}
+#middle>dl>dd:last-of-type{
+	margin-bottom: 38px;
+}
+
+/*右侧表单*/
+#middle>div{
+	float: left;
+	border: 2px #EFEFEF solid;
+	border-left: 0px;
+	width: 977px;
+	padding-bottom: 34px;
+}
+#middle>div>form{
+	
+}
+#middle>div>form>ul{
+	padding-left: 170px;
+	padding-top: 45px;
+}
+#middle>div>form>ul>li{
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+#middle>div>form>ul>li:first-child>div{
+	width: 122px;
+	height: 122px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+#middle>div>form>ul>li:first-child>div:hover>p{
+	display: block;
+}
+#middle>div>form>ul>li:first-child>div>p{
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	height: 25px;
+	line-height: 25px;
+	width: 122px;
+	display: none;
+	position: absolute;
+	top: 84px;
+}
+#middle>div>form>ul>li:first-child>div>p>a{
+	color: #f5eded;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+#middle>div>form>ul>li:first-child>img{
+	width: 122px;
+	height: 122px;
+	border-radius: 50%;
+	float: left;
+}
+#middle>div>form>ul>li:first-child>p{
+	float: left;
+	padding-left: 45px;
+	line-height: 122px;
+	vertical-align: middle;
+}
+#middle>div>form>ul>li:first-child>p>img{
+	vertical-align: middle;
+}
+#middle>div>form>ul>li:first-child>p>span{
+	color: #090808;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	padding-left: 14px;
+}
+#middle>div>form>ul>li>label{
+	color: #090808;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	padding-left: 13px;
+	height: 30px;
+	line-height: 30px;
+	background: url(../img/user_icon03.png) left center no-repeat;
+}
+#middle>div>form>ul>li>label:nth-of-type(3),#middle>div>form>ul>li>label:nth-of-type(2){
+	background: none;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+#middle>div>form>ul>li:nth-of-type(2)>input{
+	width: 275px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #ded6d7;
+	padding: 0px;
+	padding-left: 5px;
+}
+#middle>div>form>ul>li:nth-of-type(3)>span{
+	display: inline-block;
+	padding: 0px 10px;
+	cursor: pointer;
+}
+#middle>div>form>ul>li:nth-of-type(3)>input{
+	cursor: pointer;
+}
+#middle>div>form>ul>li:nth-of-type(4)>label{
+	height: 43px;
+	line-height: 43px;
+}
+#middle>div>form>ul>li>span{
+	color: #090808;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+#middle>div>form>ul>li:nth-of-type(4)>select:first-of-type{
+	margin-left: 0px;
+}
+#middle>div>form>ul>li:nth-of-type(4)>select{
+	cursor: pointer;
+	width: 93px;
+	/*width: auto;*/
+	height: 43px;
+	border: 1px solid #DED6D7;
+	line-height: 43px;
+	appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background:url(../img/images/user_icon05.png) no-repeat scroll 56px center transparent;
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+  margin-right: 14px;
+  margin-left: 5px;
+}
+#middle>div>form>ul>li:nth-of-type(4)>select>option{
+	text-align: center;
+}
+#middle>div>form>ul>li:nth-of-type(4)>span:last-child{
+	color: #E93535;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	padding-left: 45px;
+	display: inline-block;
+}
+#middle>div>form>ul>li:nth-of-type(5)>div{
+	position: relative;
+	padding-left: 64px;
+	padding-top: 12px;
+}
+#middle>div>form>ul>li:nth-of-type(5)>div>input{
+	cursor: pointer;
+	width: 93px;
+	height: 43px;
+	border: 1px solid #e0d7d8;
+	line-height: 43px;
+	text-align: center;
+	background-color: #FFFFFF;
+	appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  margin-right: 40px;
+}
+#middle>div>form>ul>li:nth-of-type(5)>div>p{
+	position: absolute;
+	color: #090808;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	cursor: pointer;
+}
+#middle>div>form>ul>li:nth-of-type(5)>div>p:first-of-type{
+	top:25px;
+	left: 82px;
+}
+#middle>div>form>ul>li:nth-of-type(5)>div>p:nth-of-type(2){
+	top:25px;
+	left: 223px;
+}
+#middle>div>form>ul>li:nth-of-type(5)>div>p:last-of-type{
+	top:25px;
+	left:364px;
+}
+#middle>div>form>ul>li:nth-of-type(5)>div>input:hover,#middle>div>form>ul>li:nth-of-type(5)>div>input:focus,#middle>div>form>ul>li:nth-of-type(5)>div>input:checked{
+	border-color: #E93535;
+}
+#middle>div>form>ul>li:nth-of-type(6) span{
+	display:inline-block;
+	color: #E93535;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	padding-left: 30px;
+	cursor: pointer;
+}
+#middle>div>form>ul>li:nth-of-type(7)>input{
+	width: 108px;
+	height: 26px;
+	border: #e0d7d8 solid 1px;
+	padding-left: 5px;
+	line-height: 28px;
+}
+#middle>div>form>ul>li:nth-of-type(8)>select{
+	cursor: pointer;
+	width: 93px;
+	height: 43px;
+	border: 1px solid #DED6D7;
+	line-height: 43px;
+	appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background:url(../img/images/user_icon05.png) no-repeat scroll 56px center transparent;
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+  margin-right: 14px;
+  margin-left: 5px;
+}
+#middle>div>form>ul>li>select>option{
+	text-align: center;
+}
+#middle>div>form>ul>li:nth-of-type(8)>select:first-of-type{
+	margin-left: 0px;
+}
+#middle>div>form>ul>li:nth-of-type(9)>button{
+	width: 96px;
+	height: 38px;
+	border: 0px;
+	background: #E93535;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	text-align: center;
+	line-height: 38px;
+	cursor: pointer;
+	margin-left: 63px;
+}
+
+/*小提示*/
+#middle>div>p{
+	color: #211e1e;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 170px;
+}
+#middle>div>ol{
+	margin-left: 170px;
+}
+#middle>div>ol>li{
+	color: #211e1e;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 22px;
+}
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+/*尾部*/
+#footer{
+	width: 100%;
+	height: 60px;
+	background: #333333;
+	clear: both;
+	padding: 0px;
+}
+#footer>p{
+	width: 100%;
+	height: 60px;
+	background: #333333;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0px;
+}

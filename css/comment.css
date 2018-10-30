@@ -1,0 +1,327 @@
+/*中部*/
+#middle{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 27px 0px 63px;
+	overflow: hidden;
+	position: relative;
+	}
+#middle>p{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-family: "microsoft yahei";
+	color: #000000;
+	font-size: 14px;
+	padding-left: 10px;
+	width: 1190px;
+	background: #f6f6f6;
+}
+#middle>div{
+	border: 2px #EFEFEF solid;
+	overflow: hidden;
+}
+/*左侧导航*/
+#middle>div>dl{
+	float: left;
+	width: 221px;
+	background: #efefef;
+}
+#middle>div>dl>dt{
+	margin-top: 38px;
+}
+#middle>div>dl>dt>a{
+	height: 38px;
+	width: 221px;
+	line-height: 38px;
+	background: #efefef;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #000000;
+	text-align: center;
+	display: block;
+	
+}
+#middle>div>dl>dt:hover>a,#middle>div>dl>dd:hover>a{
+	color: #E93535;
+}
+#middle>div>dl>.active>a{
+	color: #E93535;
+}
+#middle>div>dl>dd>a{
+	height: 38px;
+	width: 221px;
+	background: #efefef;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	color: #000000;
+	line-height: 38px;
+	text-align: center;
+	display: block;
+}
+#middle>div>dl>dd:last-of-type{
+	margin-bottom: 38px;
+}
+
+/*右侧订单*/
+#middle>div>div{
+	float: left;
+	/*border: 2px #EFEFEF solid;*/
+	border-left: 0px;
+	width: 975px;
+}
+#middle>div>div>div{
+	margin: 0px 28px;
+	border: 1px solid #a79fa1;
+	padding: 30px 26px;
+	margin-top: 76px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#middle>div>div>div>a>img{
+	width: 148px;
+	height: 144px;
+	float: left;
+}
+#middle>div>div>div>form{
+	float: right;
+	width: 635px;
+}
+#middle>div>div>div>form>p:first-child{
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #E93535;
+}
+#middle>div>div>div>form>div:first-of-type{
+	overflow: hidden;
+}
+#middle>div>div>div>form>div>p:first-child{
+	width: 72px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #000000;
+	text-align: right;
+	padding-right: 38px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+#middle>div>div>div>form>div:nth-of-type(1)>ul{
+	
+}
+#middle>div>div>div>form>div:nth-of-type(1)>ul>li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+#middle>div>div>div>form>div:nth-of-type(1)>ul>li>img{
+	vertical-align: baseline;
+	margin: 0px 1px;
+}
+#middle>div>div>div>form>div:nth-of-type(2)>ul{
+	overflow: hidden;
+	padding-top: 10px;
+}
+#middle>div>div>div>form>div:nth-of-type(2)>ul>li{
+	cursor: pointer;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #000000;
+	width: 89px;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	line-height: 20px;
+	text-align: center;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+#middle>div>div>div>form>div:nth-of-type(2)>ul>.active{
+	border-color: #E93535;
+}
+#middle>div>div>div>form>div:nth-of-type(3)>div{
+	width: 484px;
+	border: 1px solid #a79fa1;
+	padding: 25px 0px;
+	padding-left: 26px;
+	float: left;
+	height: 140px;
+}
+#middle>div>div>div>form>div:nth-of-type(3)>div>textarea{
+	height: 40px;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #000000;
+	width: 480px;
+	overflow: hidden;
+	resize: none;
+	border: 0px;
+}
+#middle>div>div>div>form>div:nth-of-type(3)>div>img{
+	width: 84px;
+	height: 80px;
+	margin-right: 14px;
+	padding-top: 15px;
+}
+#middle>div>div>div>form>p:last-of-type{
+	float: right;
+	background: url(../img/page_icon02.png) left top no-repeat;
+	height: 22px;
+	padding-right: 40px;
+	margin-top: 12px;
+	padding-left: 30px;
+	color: #a0a0a0;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	line-height:22px;
+	cursor: pointer;
+}
+#middle>div>div>div>form>input{
+	position: absolute;
+	left: 1010px;
+	top:515px;
+	height: 40px;
+	cursor: pointer;
+	opacity: 0;
+	}
+#middle>div>div>div>form>p:last-of-type>a{
+	color: #a0a0a0;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	line-height:22px;
+	cursor: pointer;
+}
+#middle>div>div>div>form>button{
+	color: #FFFFFF;
+	background: #E93535;
+	border: 0px;
+	text-align: center;
+	width: 130px;
+	height: 42px;
+	line-height: 42px;
+	margin-top: 56px;
+	margin-right: 200px;
+	float: right;
+	font-size: 24px;
+	font-family: "microsoft yahei";
+}
+
+/*评价列表*/
+
+#middle>div>div>ul:first-of-type{
+	width: 843px;
+	/*margin-left: 66px;*/
+	margin: 0px auto;
+}
+#middle>div>div>ul:first-of-type>li{
+	border-bottom: 1px solid #b7aaab;
+	width: 843px;
+	padding: 15px 0px;
+	overflow: hidden;
+}
+#middle>div>div>ul:first-of-type>li:nth-child(1){
+	padding:15px auto;
+}
+#middle>div>div>ul:first-of-type>li>p{
+	float: left;
+	padding-left: 25px;
+	width: 148px;
+	padding-top: 30px;
+}
+#middle>div>div>ul:first-of-type>li>p>span{
+	color: #ab9595;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+#middle>div>div>ul:first-of-type>li>p>img{
+	
+}
+#middle>div>div>ul:first-of-type>li>img{
+	width: 84px;
+	height: 80px;
+	float: left;
+	padding-right: 42px;
+	padding-top: 10px;
+}
+#middle>div>div>ul:first-of-type>li>ul{
+	float: left;
+}
+#middle>div>div>ul:first-of-type>li>ul>li{
+	color: #ab9595;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 25px;
+}
+#middle>div>div>ul:first-of-type>li{
+	border-bottom: 1px solid #b7aaab;
+	width: 832px;
+	padding: 15px 0px;
+	overflow: hidden;
+}
+#middle>div>div>ul:first-of-type>li:nth-child(1){
+	padding: 15px auto;
+}
+#middle>div>div>ul:first-of-type>li>p{
+	float: left;
+	padding-left: 25px;
+	width: 148px;
+	padding-top: 30px;
+}
+#middle>div>div>ul:first-of-type>li>p>span{
+	color: #ab9595;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+#middle>div>div>ul:first-of-type>li>p>img{
+	
+}
+#middle>div>div>ul:first-of-type>li>ul{
+	float: left;
+}
+#middle>div>div>ul:first-of-type>li>ul>li{
+	color: #ab9595;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 25px;
+	width: 532px;
+}
+
+/*页码*/
+.page{
+	width: 460px;
+	margin: 0px auto;
+	padding-bottom: 70px;
+	margin-top: 28px;
+}
+.page>li{
+	float: left;
+	margin-right: 11px;
+}
+.page>li>a{
+	cursor: pointer;
+	border: 1px solid #beafaf;
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	text-align: center;
+	color: #0c0c0c;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 32px;
+	background-color: #f0ecec;
+}
+.page>li>a:hover{
+	background-color: #FFFFFF;
+	color: #df1414;
+}
+.page>.on>a{
+	background-color: #FFFFFF;
+	color: #df1414;
+}
+.page>.prev>a,.page>.next>a{
+	width: 55px;
+	background-color: #FFFFFF;
+}
+

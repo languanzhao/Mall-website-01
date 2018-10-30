@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/reg.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header">
+			<!--进行判断-->
+		    <div class="logo">
+		    	<a href="index.html"><img src="img/reg_01.png"/></a>
+		    </div>
+		</div>
+		<!--中部-->
+		<div id="middle">
+			<p>注册新用户</p>
+			<div>
+				<h1>欢迎您注册世纪香坊商城账号</h1>
+				<form action="" method="post" onsubmit="return false;">
+					<ul>
+						<li>
+							<label for="username">*请输入用户名：</label>
+							<input type="text" name="username" id="username" value="" />
+							<p>*必填  &nbsp;&nbsp;由3到16位的字母，数字，下划线组成</p>
+						</li>
+						<li>
+							<label for="password">*请输入密码：</label> 
+							<input type="password" name="password" id="password" value="" />
+							<p>*必填  &nbsp;&nbsp;由6到18位的字母，数字，下划线组成</p>
+						</li>
+						<li>
+							<label for="dbpassword">*请输重复输入密码：</label>
+							<input type="password" name="dbpassword" id="dbpassword" value="" />
+							<p>*必填</p>
+						</li>
+						<li>
+							<label for="email">*请输入常用邮箱：</label>
+							<input type="email" name="email" id="email" value="" />
+						    <p>*必填</p>
+						</li>
+						<li>
+							<label for="phone">*请输入手机号：</label>
+							<input type="text" name="phone" id="phone" value="" />
+						    <p>*必填</p>
+						</li>
+						<li>
+							<label for="info">*短信验证码：</label>
+							<input type="text" name="info" id="info" value="" />
+							<button id="code">获取短信验证码</button>
+						</li>
+					</ul>
+					<!--<input type="submit" value=""/>-->
+					<button type="submit" id="reg">注册</button>
+					<input type="checkbox" name="checkbox" id="checkbox" />
+					<label for="checkbox" >我已阅读并同意网站的使用 条件及隐私声明</label>
+					<p>
+						<span>已有账号？</span>
+						<a href="login.html"><span>立即登录</span></a>
+					</p>
+				</form>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer">
+			<p>世纪沉香坊有限公司 WowSai.com Copyright© 2008-2013 [京ICP备10020900][京公网安备11010502026420][京ICP证090011号]</p>
+		</div>
+		<script type="text/javascript" src="js/reg.js" ></script>
+	</body>
+</html>

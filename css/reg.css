@@ -1,0 +1,180 @@
+/*头部*/
+#header{
+	width: 100%;
+}
+.logo{
+	margin: 0px auto;
+	border-bottom: 2px #E93535 solid;
+	height: 175px;
+	line-height: 175px;
+	text-align: center;
+}
+.logo>a>img{
+	vertical-align: middle;
+	cursor:pointer;
+}
+
+body{
+	background: #f8f7f7;
+}
+
+/*中部*/
+#middle{
+	width: 1200px;
+	margin: 0px auto;
+	margin-top: 92px;
+}
+#middle>p{
+	height: 32px;
+	width: 1188px;
+	background-color: #E93535;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	padding-left: 12px;
+	line-height: 32px;
+}
+#middle>div{
+	background-color: #FFFFFF;
+	width: 100%;
+	padding-bottom: 52px;
+}
+#middle>div>h1{
+	font-size: 24px;
+	color: #000000;
+	font-family: "microsoft yahei";
+	text-align: center;
+	font-weight: normal;
+	height: 127px;
+	line-height: 127px;
+}
+form{
+	overflow: hidden;
+	margin-top: 18px;
+	text-align: center;
+}
+form>ul{
+	float: right;
+	margin-right: 376px;
+}
+form>ul>li{
+	float: right;
+	margin-bottom: 42px;
+	position: relative;
+}
+form>ul>li>label{
+	font-size: 14px;
+	color: #000000;
+	font-family: "microsoft yahei";
+	height: 35px;
+	line-height: 35px;
+	text-align: right;
+	width: 150px;
+	display: inline-block;
+}
+form>ul>li>input{
+	margin-left: 12px;
+	width: 303px;
+	height: 35px;
+	border: #cacaca solid 1px;
+	line-height: 35px;
+	float: right;
+	padding-left: 5px;
+}
+form>ul>li>p{
+	left: 495px;
+	top: 0px;
+	color: #0ad5b6;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	position: absolute;
+	height: 35px;
+	width: 320px;
+	line-height: 35px;
+	text-align: left;
+}
+form>ul>li:last-of-type>input{
+	width: 138px;
+	float: none;
+	
+}
+form>ul>li:last-of-type>button{
+	cursor: pointer;
+	float: right;
+	height: 37px;
+	line-height: 37px;
+	width: 156px;
+	background-color: #E93535;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	text-align: center;
+	border: 0px;
+	margin-left: 8px;
+}
+form>ul>li>label>input:hover,form>ul<li>label>input:focus{
+	border: #cacaca solid 1px;	
+}
+form>button{
+	width: 156px;
+	height: 37px;
+	background-color: #E93535;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	text-align: center;
+	line-height: 37px;
+	margin: 25px auto;
+	display: block;
+	border: 0px;
+	cursor: pointer;
+}
+form>input{
+	line-height: 22px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+form>label{
+	color: #201f1f;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	cursor: pointer;
+}
+form>p{
+	font-size: 0px;
+	padding-top: 14px;
+}
+form>p span{
+	height: 18px;
+	line-height: 18px;
+	color: #201f1f;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	display: inline-block;
+}
+form>p>a>span{
+	text-decoration: underline;
+	margin-left: 18px;
+	cursor: pointer;
+}
+
+/*尾部*/
+#footer{
+	height: 60px;
+	width: 100%;
+	padding: 0px;
+}
+#footer>p{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 100%;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+	background-color: #333333;
+	padding: 0px;
+}
+
